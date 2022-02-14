@@ -1,4 +1,4 @@
-#### A simple application Node.js connecting with MySQL (No **ORM**)
+# A simple application Node.js connecting with MySQL (No **ORM**)
 
 **_Description: This is a simple application that connects a database, makes queries and records with promises._**
 
@@ -23,7 +23,7 @@ run aplication
 
 ## All SQL commands used.
 
-# QUERYS DB
+### QUERYS DB
 
 CREATE DATA BASE  
 `CREATE DATABASE finance`
@@ -41,7 +41,7 @@ CREATE FOREIGN KEY
 `ALTER TABLE debts_users ADD FOREIGN KEY (id_user) REFERENCES users(id)`  
 `ALTER TABLE debts_users ADD FOREIGN KEY (id_debt) REFERENCES debts(id)`
 
-# QUERYS TABLE
+### QUERYS TABLE
 
 SELECT USERS  
 `SELECT * FROM users`
@@ -58,10 +58,10 @@ UPDATE USER
 DELETE USER  
 `DELETE FROM users WHERE id = 3`
 
-#QUERYS INNER JOIN TABLE
+### QUERYS INNER JOIN TABLE
 
 continue in the next commit push..
 
 Indirect participant @BrendoLima
 
-[mysql2 node lib](https://www.npmjs.com/package/mysql2).
+[mysql2 node lib.](https://www.npmjs.com/package/mysql2)
