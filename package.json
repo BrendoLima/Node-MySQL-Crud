@@ -1,7 +1,7 @@
 {
-  "name": "node-mysql",
+  "name": "mysql",
   "version": "1.0.0",
-  "description": "",
+  "description": "**_Description: This is a simple application that connects a database, makes queries and records with promises._**",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -10,5 +10,13 @@
   "license": "ISC",
   "dependencies": {
     "mysql2": "^2.3.3"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BrendoLima/Node-MySQL-Crud.git"
+  },
+  "bugs": {
+    "url": "https://github.com/BrendoLima/Node-MySQL-Crud/issues"
+  },
+  "homepage": "https://github.com/BrendoLima/Node-MySQL-Crud#readme"
 }
